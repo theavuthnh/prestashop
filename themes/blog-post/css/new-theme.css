@@ -1,0 +1,50 @@
+.header-aw{
+	padding: 18px 0 0 25px;
+	height: 72px;
+	background: url('../img/bg/topbg.gif') repeat-x;
+}
+
+.topmenu{
+	padding:6px 0 0 10px;
+	background:url('../img/bg/topmenu.gif') bottom repeat-x;
+	height:32px;
+}
+
+.topmenu > #cssmenu {
+	border-color: #041760;
+	border: none;
+}
+
+#cssmenu > ul{
+	list-style: inside none;
+	padding: 0;
+	margin: 0;
+}
+
+#cssmenu > ul > li {
+	list-style: inside none;
+	padding: 0;
+	margin: 0;
+	float: left;
+	display: block;
+	position: relative;
+	line-height: 20px;
+}
+
+#cssmenu > ul > li > a {
+	border-right: 0px solid #041760;
+	color: #333333;
+	padding: 0px 20px 0 16px;
+	font-size: 14px;
+	text-transform: uppercase;
+}
+
+li.diver{
+	list-style: inside none;
+	padding: 0;
+	margin: 0;
+	float: left;
+	display: block;
+	position: relative;
+	width: 2px;
+}
